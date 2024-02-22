@@ -1,0 +1,17 @@
+public class ArraySum {
+    public static void main(String[] args) {
+        // Заданный массив целых чисел
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        // Переменная для хранения суммы
+        int sum = 0;
+
+        // Вычисление суммы элементов массива
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+
+        // Вывод суммы на экран
+        System.out.println("Сумма элементов массива: " + sum);
+    }
+}
